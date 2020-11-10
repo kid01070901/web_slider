@@ -7,7 +7,11 @@ https://kid01070901.github.io/web_slider/
 # 使用說明
 
 ## CDN
+```
+<link rel="stylesheet" href="https://kid01070901.github.io/web_slider/style.css">
+<script src="https://kid01070901.github.io/web_slider/script.js"></script>
 
+```
 ## 架構
 
 ```
