@@ -90,6 +90,33 @@
   cursor: pointer;
 }
 
+#kid-slider #kid-buttons .kid-button-active {
+  -webkit-animation-name: kidButton;
+          animation-name: kidButton;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes kidButton {
+  0% {
+    background: #ffffff77;
+  }
+  100% {
+    background: #00000077;
+  }
+}
+
+@keyframes kidButton {
+  0% {
+    background: #ffffff77;
+  }
+  100% {
+    background: #00000077;
+  }
+}
+
 @-webkit-keyframes kidImage {
   0% {
     -webkit-transform: scale(1.5);
